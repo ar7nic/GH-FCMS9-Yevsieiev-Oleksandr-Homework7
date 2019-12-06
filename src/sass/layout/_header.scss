@@ -1,0 +1,15 @@
+.head {
+  background: url("../img/first_bg.jpg") center no-repeat;
+  background-size: cover;
+  color: $main-color;
+  padding: 40px 0;
+  h1 {
+    font-size: 70px;
+    font-weight: 800;
+    margin: 100px auto 10px auto;
+  }
+  p {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+}

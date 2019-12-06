@@ -1,0 +1,36 @@
+.works-icons {
+  border: 1px solid $border-color;
+  border-radius: 50%;
+  width: 151px;
+  height: 151px;
+  color: transparent;
+}
+
+.first-icon {
+  background: url("../img/print_design.png") center no-repeat;
+}
+
+.second-icon {
+  background: url("../img/web_design.png") center no-repeat;
+}
+
+.third-icon {
+  background: url("../img/app_design.png") center no-repeat;
+}
+
+.fourth-icon {
+  background: url("../img/logo_design.png") center no-repeat;
+}
+
+.social img{
+  width: 23px;
+  height: 23px;
+  margin: 0 5px 10px 5px;
+}
+
+.social-list {
+  float: right;
+  .links {
+    margin: 0 5px;
+  }
+}

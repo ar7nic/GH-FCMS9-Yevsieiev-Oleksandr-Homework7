@@ -1,0 +1,44 @@
+.feedback {
+  background: url("../img/fourth_bg.jpg") center no-repeat;
+  background-size: cover;
+  color: $main-color;
+  padding: 40px 0;
+}
+
+.hello {
+  max-width: 840px;
+  width: 100%;
+  margin: auto;
+  input[type="text"]{
+    float: right;
+    max-width: 380px;
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    padding: 15px;
+    margin: 10px 0 10px 5px;
+    font-size: 16px;
+  }
+
+  input[type="email"]{
+    float: left;
+    max-width: 380px;
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    padding: 15px;
+    margin: 10px 5px 10px 0;
+    font-size: 16px;
+  }
+}
+
+.message {
+  max-width: 810px;
+  width: 100%;
+  border-radius: 7px;
+  margin: 20px 0;
+  font-size: 16px;
+  resize: none;
+  border: none;
+  padding: 15px;
+}

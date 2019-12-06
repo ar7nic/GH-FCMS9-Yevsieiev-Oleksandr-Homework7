@@ -1,0 +1,22 @@
+.bottom {
+  background: $border-color;
+  padding: 20px;
+  & .copyright {
+    font-size: 16px;
+    float: left;
+    color: $main-color;
+    margin: 0;
+  }
+}
+
+a.symu {
+  color: #ffffff;
+  font-size: 16px;
+  float: right;
+  img {
+    position: relative;
+    bottom: -2px;
+  }
+}
+
+

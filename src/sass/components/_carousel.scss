@@ -1,0 +1,47 @@
+.clients {
+  background: url("../img/third_bg.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.face {
+  display: block;
+  max-width: 900px;
+  width: 100%;
+  padding: 80px 0 80px;
+  margin: auto;
+  position: relative;
+}
+
+.review {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.quote {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.author-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.quote,.author-name {
+  color: $main-color;
+}
+
+.next:after {
+  position: absolute;
+  right: -50px;
+  content: url("../img/arrow_next.png");
+}
+
+.preview:after {
+  position: absolute;
+  left: -50px;
+  content: url("../img/arrow_prev.png");
+}

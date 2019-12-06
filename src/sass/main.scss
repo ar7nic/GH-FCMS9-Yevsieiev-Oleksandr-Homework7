@@ -1,0 +1,16 @@
+@import "normalize/import-now";
+
+@import 'utils/variables';
+
+@import 'base/basic';
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/forms';
+@import 'layout/footer';
+
+@import 'components/buttons';
+@import 'components/carousel';
+@import 'components/icons';
+
+@import 'pages/home';
